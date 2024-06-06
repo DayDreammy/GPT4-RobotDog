@@ -301,4 +301,5 @@ def chat_with_bot(one_time=True):
             break
 
 
-chat_with_bot(one_time=False)
+if __name__ == "__main__":
+    chat_with_bot(one_time=False)
